@@ -4,9 +4,9 @@ Board Game Geek Dataset Cleaning Script
 
 This script performs initial data cleaning on the BoardGameGeek dataset:
 - Removes duplicate game titles
-- Filters out invalid/missing data (including Amazon price)
+- Filters out invalid/missing data
 - Creates derived features (Game Age, Log Playtime, etc.)
-- Normalizes features by creating NEW columns (preserving originals)
+- Normalizes features by creating new columns (preserving originals)
 - Exports cleaned dataset
 
 Final dataset spans 1990-2025.
